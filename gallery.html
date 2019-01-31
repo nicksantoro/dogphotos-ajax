@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-POYwD7xcktv3gUeZO5s/9nUbRJG/WOmV6jfEGikMJu77LGYO8Rfs2X7URG822aum"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="styling.css">
+    <title>Gallery</title>
+</head>
+
+<body>
+
+    <div class="container-fluid bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-11 py-5">
+                    <h1 class="text-white">Random Dog Photos</h1>
+                </div>
+                <div class="col-1 py-5">
+                    <i class="fal fa-dog fa-3x" style="color:white"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h6 class="mt-5">Filter by</h6>
+                <select id="subBreedList" class="custom-select">
+                    <option selected>Sub Breed</option>
+                </select>
+            </div>
+            <div class="col-10">
+                <form class="mt-5">
+                    <div class="form-group">
+                        <!-- <label for="breedInput">Select Dog Breed</label> -->
+                        <input type="text" class="form-control" name="breed" id="breed" placeholder="Type dog breed here">
+                    </div>
+                    <!-- use submit when you're submitting to server. use button when you you are not. -->
+                    <button id="btnBreedSearch" type="button" class="btn btn-outline-dark mt-1 mb-3">Submit</button>
+                </form>
+                <div id="gallery">
+                </div>
+                <div class="row">
+                    <div class="col text-right mb-5 mt-3">
+                        <button id="previousPhotos" class="btn btn-primary hover">Previous</button>
+                        <button id="nextPhotos" class="btn btn-primary ml-3 hover">Next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="gallery.js"></script>
+</body>
+
+</html>
