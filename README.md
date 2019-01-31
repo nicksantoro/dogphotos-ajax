@@ -15,4 +15,3 @@ Includes:
 ![main page]('screenshots/main-page.png')
 ![random photo]('screenshots/random-photo.png')
 ![gallery breed]('screenshots/gallery-breed.png')
-
