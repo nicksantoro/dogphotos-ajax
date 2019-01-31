@@ -12,6 +12,6 @@ Includes:
 - gallery page that displays 6 dogs of that breed per page.
 - paginates the search results.
 
-![main page]('screenshots/main-page.png')
-![random photo]('screenshots/random-photo.png')
-![gallery breed]('screenshots/gallery-breed.png')
+![main page](screenshots/main-page.png)
+![random photo](screenshots/random-photo.png)
+![gallery breed](screenshots/gallery-breed.png)
